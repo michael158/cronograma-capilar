@@ -1,5 +1,6 @@
 html,body, #root, .Home, .Header, .container, .container-header{
     height: 100%;
+    width: 100%;
 }
 
 .Header{
@@ -42,7 +43,8 @@ html,body, #root, .Home, .Header, .container, .container-header{
 }
 
 .Header .container-header .left .container-text{
-    color: white
+    color: white;
+    width: 100%;
 }
 
 .Header .container-header .left h1{
@@ -63,9 +65,10 @@ html,body, #root, .Home, .Header, .container, .container-header{
     font-size: 14px;
 }
 
+
 .Header .container-header .left a{
     background: white;
-    border: 1px solid white;
+    border: 1px solid #852CC8;
     color: #852CC8;
     font-weight: bold;
     margin-top: 20px;
@@ -99,6 +102,10 @@ html,body, #root, .Home, .Header, .container, .container-header{
     .Header .container-header .left{
         text-align: center;
         align-items: center;
+    }
+
+    .Header .container-header .left h1{
+        font-size: 45px;
     }
 
 

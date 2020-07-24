@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cronograma-capilar/precache-manifest.27bae9798843ce56fc37f0e74a427c87.js"
+  "/cronograma-capilar/precache-manifest.611fcb75f1599497686f4da51f9dc839.js"
 );
 
 self.addEventListener('message', (event) => {

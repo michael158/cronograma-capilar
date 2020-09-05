@@ -24,7 +24,7 @@ export default function Header() {
             <Container>
                 <div className="container-header">
                     <div className="left">
-                        {/* <Bounce left> */}
+                        <Bounce left>
                             <div className="container-text">
                                 <h1>Cronograma Capilar</h1>
                                 <h2>Crescimento Acelerado!</h2>
@@ -39,7 +39,7 @@ export default function Header() {
                                     <FiShoppingCart /> Compre agora
                                  </a>
                             </div>
-                        {/* </Bounce> */}
+                        </Bounce>
                     </div>
 
                     <div className="right">
@@ -51,9 +51,7 @@ export default function Header() {
                     </div>
                 </div>
             </Container>
-            <div className="container-border-image">
-                <img src={BorderImage} alt="border" className="img-fluid" />
-            </div>
+            <img src={BorderImage} alt="border" className="img-fluid img-border" />
         </div>
     )
 }
